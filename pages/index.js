@@ -48,7 +48,7 @@ function Title(props) {
 }
 
 export default function HomePage() {
-    const [username, setUsername] = React.useState('omariosouto');
+    const [username, setUsername] = React.useState('andressaroberts');
     const roteamento = useRouter();
 
     return ( <
@@ -60,7 +60,7 @@ export default function HomePage() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 backgroundColor: appConfig.theme.colors.primary[500],
-                backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+                backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/12/pulp-fiction-vincent-and-jules-coffee.jpg)',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundBlendMode: 'multiply',
